@@ -22,9 +22,28 @@ h1{
     display:flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
 }
+
+#menu ul{
+    list-style: none;
+
+}
+
+#menu ul li{
+   display: inline;
+    margin: 5px;
+}
+
+#menu ul li a{
+   text-decoration: none;
+    color: white;
+}
+
+
 #main{
     background-color:darksalmon ;
+    display: inline;
 }
 footer{
     background-color: rgb(209, 0, 0);
